@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Kinza紹介スライド</title>
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/league.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section><!-- １ページ目 -->
+        <h2>Kinzaってご存知？</h2>
+      </section>
+
+      <section><!-- ２ページ目 -->
+        <h2>皆さんはどのブラウザ？</h2>
+        <img src="https://yt3.ggpht.com/-1Vjffxh4izY/AAAAAAAAAAI/AAAAAAAAAAA/u3AchCHljX8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" width="250px">
+        <img src="http://pngimg.com/uploads/chrome_logo/chrome_logo_PNG1.png" width="250px">
+        <img src="http://privacysafer.cs.ucy.ac.cy/_img/firefox.png" width="250px">
+      </section>
+
+      <section><!-- ３ページ目 -->
+        <section><!-- ３-１ -->
+          <h2>Kinzaを紹介</h2>
+          <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/kjx130/20160615/20160615152414.jpg" alt="">
+        </section>
+        <section><!-- ３-２ -->
+          <h2>Kinzaって？</h2>
+          <ul>
+            <li>ユーザーの声で進化するブラウザ</li>
+            <li>他のブラウザにはない便利な機能</li>
+            <li>久松研究室と共同で開発</li>
+          </ul>
+        </section>
+      </section>
+
+      <section><!-- ４ページ目 -->
+        <section>
+          <h2>便利な機能その１</h2>
+          <h3>マウスジェスチャー</h3>
+        </section>
+        <section>
+          <h3>マウスジェスチャーって？</h3>
+          マウスの移動による軌跡を読み取って<br>コマンド(機能)を実行するもの<br><br>
+          <h3>例えば…</h3>
+        </section>
+        <section>
+          <h3>タブの移動：chromeだったら</h3>
+          <img src="./img/mouse-gesture01.gif" width="600px"><br>
+          わざわざタブまで移動する必要が……っ！
+        </section>
+        <section>
+          <h3>タブの移動：kinzaだったら</h3>
+          <img src="./img/mouse-gesture02.gif" width="600px"><br>
+          タブまで移動しなくてもok!!
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h2>便利な機能その２</h2>
+          <h3>スーパードラッグ</h3>
+        </section>
+        <section>
+          気になる言葉をスーパードラッグ！<br>
+          <img src="./img/super-drug.gif" width="700px">
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h4>マウスジェスチャーやスーパードラッグは<br>好きな設定に変更可能！</h4>
+        </section>
+        <section>
+          <h3>更に自分好みのブラウザに...</h3>
+        </section>
+      </section>
+
+      <section>
+        <h3>実際に触ってみよう！</h3>
+      </section>
+    </div>
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+  // More info https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    history: true,
+
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+      { src: 'plugin/markdown/marked.js' },
+      { src: 'plugin/markdown/markdown.js' },
+      { src: 'plugin/notes/notes.js', async: true },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+    ]
+  });
+  </script>
+</body>
+</html>
